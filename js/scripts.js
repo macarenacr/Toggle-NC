@@ -4,8 +4,8 @@ toggle.addEventListener("change", function() {
   if (this.checked) {
     
     document.body.style.backgroundColor = "";
-    document.body.style.backgroundImage = "url('../assets/nc.jpg";
-    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundImage = "url('assets/nc.jpg')";
+    document.body.style.backgroundSize = "cover"
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundPosition = "center";
   } else {
